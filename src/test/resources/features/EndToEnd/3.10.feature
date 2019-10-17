@@ -5,9 +5,9 @@ Feature: 3.10
     When I type email "qa.sofi@gmail.com" on "login" page
     And I type password "123456" on "login" page
     And I click Sign in button
-##    Create Quiz
-#    When I click on "Quizzes" on left menu
-#    When I click create new quiz button
+#    Create Quiz
+    When I click on "Quizzes" on left menu
+    When I click create new quiz button
 #    When I type title of the quiz "Test Quiz"
 #    And I click on Add question button
 #    When I select textual type of Question

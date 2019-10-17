@@ -50,4 +50,16 @@ public class def_3_10 {
         Thread.sleep(1000);
     }
 
+    @When("I click on {string} on left menu")
+    public void iClickOnOnLeftMenu(String arg0) throws Throwable {
+        getDriver().findElement(By.xpath("//h5[contains(text(),'Quizzes')]")).click();
+        Thread.sleep(2000);
+    }
+
+    @When("I click create new quiz button")
+    public void iClickCreateNewQuizButton() throws Throwable {
+        getDriver().findElement(By.xpath("//span[contains(text(),'Create New Quiz')]")).click();
+        Thread.sleep(2000);
+
+    }
 }
