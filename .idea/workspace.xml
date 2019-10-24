@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d0fb18-8a3b-4a77-b765-175bbace1dac" name="Default Changelist" comment="Add workspace.xml">
+    <list default="true" id="82d0fb18-8a3b-4a77-b765-175bbace1dac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/definitions/userFirstName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -30,6 +37,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570746896740" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -37,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\IdeaProjects\ASK-FullTime\src\test\resources\features\EndToEnd" />
+      <recent name="C:\Users\Home\IdeaProjects\ASK-FullTime\src\test\java\definitions" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
       <recent name="$PROJECT_DIR$/src/test/resources/EndToEnd" />
       <recent name="$PROJECT_DIR$/src/test/resources/Objects" />
-      <recent name="$PROJECT_DIR$/src/test/resources/features1" />
-      <recent name="$PROJECT_DIR$/src/test/resources/features/EndToEnd/Objects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -56,15 +64,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Clean up after the test">
-    <configuration name="Feature: 3.10" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: User - First name : Field is required">
+    <configuration name="Feature: UserFirstName" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" />
       <option name="GLUE" value="support definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ASK-Express" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 3.10" />
+      <option name="SUGGESTED_NAME" value="Feature: UserFirstName" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -132,12 +140,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: User - First name : Field is required" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ASK-Express" />
+      <option name="NAME_FILTER" value="^User \- First name \: Field is required$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User \- First name \: Field is required$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User - First name : Field is required" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: User - First name : Field is required" />
+        <item itemvalue="Cucumber java.Feature: UserFirstName" />
         <item itemvalue="Cucumber java.Scenario: Clean up after the test" />
         <item itemvalue="Cucumber java.Scenario: Login as a student and check if assignment is available" />
         <item itemvalue="Cucumber java.Scenario: Teacher create Quiz and assign it to student and student get assignments" />
-        <item itemvalue="Cucumber java.Feature: 3.10" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571372264293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="My homework">
+      <created>1571887671061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571887671062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Automation Assessment Control" />
     <MESSAGE value="Add workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add workspace.xml" />
+    <MESSAGE value="My homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="My homework" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
